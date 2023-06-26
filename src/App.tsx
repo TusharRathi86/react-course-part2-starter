@@ -9,10 +9,10 @@
 // import TaskContext from "./state-management/contexts/taskContext";
 // import { useReducer } from "react";
 // import taskReducer from "./state-management/reducers/taskReducer";
-import NavBar from "./state-management/NavBar";
-import HomePage from "./state-management/HomePage";
 import AuthProvider from "./state-management/AuthProvider";
-import TaskProvider from "./state-management/TaskProvider";
+import HomePage from "./state-management/HomePage";
+import NavBar from "./state-management/NavBar";
+import TaskProvider from "./state-management/tasks/TaskProvider";
 
 function App() {
   return (
