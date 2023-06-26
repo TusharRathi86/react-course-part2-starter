@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import useAuth from "../hooks/useAuth";
+import useAuth from "../removed/useAuth";
 import TaskContext from "./taskContext";
 
 const useTask = () => useContext(TaskContext);
@@ -11,7 +11,6 @@ const TaskList = () => {
   return (
     <>
       <p>User: {user} </p>
-      <br />
       <button
         onClick={() =>
           dispatch({
