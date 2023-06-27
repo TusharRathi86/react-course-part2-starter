@@ -1,11 +1,15 @@
-import React, { Dispatch } from "react";
-import { AuthAction } from "./AuthProvider";
+// NOT REQUIRED //
 
-interface AuthContextType {
-  user: string;
-  authDispatch: Dispatch<AuthAction>;
-}
+// import React, { Dispatch } from "react";
+// import { AuthAction } from "./AuthProvider";
 
-const AuthContext = React.createContext<AuthContextType>({} as AuthContextType);
+// interface AuthContextType {
+//   user: string;
+//   authDispatch: Dispatch<AuthAction>;
+// }
 
-export default AuthContext;
+// const AuthContext = React.createContext<AuthContextType>({} as AuthContextType);
+
+// export default AuthContext;
+
+export {};
